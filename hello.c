@@ -1,8 +1,8 @@
 
 #include <stdio.h>
-#include "user/user.c"
+#include "user/user.h"
+#include "user/show.h"
 
-void show();
 
 int main()
 {
