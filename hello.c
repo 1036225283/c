@@ -10,7 +10,7 @@ int main()
     printf("Hello, World! \n");
 
     int age = 12;
-    printf("the age is = %d", age);
+    printf("the age is = %d \n", age);
 
     int result = add(1, 2);
 

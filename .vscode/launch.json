@@ -8,7 +8,7 @@
             "name": "(lldb) 启动",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/hello",
+            "program": "${workspaceFolder}/hello.sh",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
