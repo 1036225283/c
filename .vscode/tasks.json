@@ -40,7 +40,7 @@
             "type": "shell",
             "command": "clang",
             "args": [
-                "*.c",
+                "main/*.c",
                 "user/*.c",
                 "-o",
                 "hello.sh",

@@ -1,7 +1,7 @@
 
 #include <stdio.h>
-#include "user/user.h"
-#include "user/show.h"
+#include "../user/user.h"
+#include "../user/show.h"
 
 
 int main()
