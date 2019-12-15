@@ -41,7 +41,30 @@
             "command": "clang",
             "args": [
                 "main/*.c",
-                "user/*.c",
+                "-o",
+                "hello.sh",
+                "--debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "lib",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-L",
+                "/usr/local/lib/xws",
+                "-l",
+                "user",
+                "-l",
+                "show",
+                "main/*.c",
                 "-o",
                 "hello.sh",
                 "--debug"
